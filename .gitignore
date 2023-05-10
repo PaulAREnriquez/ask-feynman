@@ -1,5 +1,5 @@
-# ignoring the environment
+# Environment
 feynman-env
 
-# ignoring all pycache folders
+# pycache
 __pycache__

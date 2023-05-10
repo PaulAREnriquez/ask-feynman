@@ -8,7 +8,7 @@ OPEN_API_KEY = "OPENAI_API_KEY"
 def main():
 
     # Parameterizing arguments from the command line
-    parser = ArgumentParser(description="Pychat v0.1")
+    parser = ArgumentParser(description="Ask Feynman v.1")
     # max-tokens is the flag
     parser.add_argument(
         "--max-tokens", help="Maximum size of tokens used", type=int, default=2000
@@ -41,7 +41,7 @@ def main():
     open_ai_api_key = os.getenv(OPEN_API_KEY)
 
     if open_ai_api_key == None:
-        print("OPENAI_API_KEY required")
+        print("OPENAI_API_KEY is required")
         exit(-1)
 
     query = query.strip()
@@ -50,7 +50,9 @@ def main():
 
     while True:
         if query.lower() == "quit":
-            print("\nGoodbye!")
+            print("\nWell, I'm off to explore the mysteries of the universe! \
+                  Until our paths cross again, keep questioning everything and seeking out new knowledge. \
+                  So long for now!")
             break
         elif query == "":
             print("You did not ask me anything.")
