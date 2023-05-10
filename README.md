@@ -1,4 +1,4 @@
-Ask Richard Feynman v.1
+Ask Feynman v.1
 
 A simple command-line application utilizing the ChatCompletion API from OpenAI. 
 
