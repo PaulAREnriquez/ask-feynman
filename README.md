@@ -12,5 +12,10 @@ It does not store conversations, which means it has no memory and cannot answer 
 Install requirements for this application using the following command:
 `pip install -r requirements.txt`
 
+You must first set your secret `OPENAI_API_KEY` inside your virtual environment using the following command:
+`set OPENAI_API_KEY = "your OPENAI_API_KEY"
+
 Type the following command to run the program:
+
+`python -m ask-feynman --query "your query"`
 
