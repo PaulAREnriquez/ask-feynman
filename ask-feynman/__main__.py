@@ -51,8 +51,8 @@ def main():
     while True:
         if query.lower() == "quit":
             print("\nWell, I'm off to explore the mysteries of the universe! \
-                  Until our paths cross again, keep questioning everything and seeking out new knowledge. \
-                  So long for now!")
+Until our paths cross again, keep questioning everything and seeking out new knowledge. \
+So long for now!")
             break
         elif query == "":
             print("You did not ask me anything.")
